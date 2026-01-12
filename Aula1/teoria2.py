@@ -24,3 +24,14 @@ TIPOS PRIMITIVOS em Python:
 
 8. None: representa ausência de valor
 """
+nome = "Joseph"
+idade = 30
+altura = 1.89
+ativo = False
+
+# Verificando tipos de dados
+print("\n=== VERIFICANDO TIPOS ===")
+print(f"Tipo de {nome}: {type(nome)}")
+print(f"Tipo de: {idade}: {type(idade)}")
+print(f"Tipo de: {altura}: {type(altura)}")
+print(f"Tipo de: {ativo} : {type(ativo)}")
