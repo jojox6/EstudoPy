@@ -14,7 +14,8 @@ print("\n📖 PROBLEMA 3: Conversor de Temperatura")
 print("-" * 50)
 
 # Temperatura em Celsius
-temp_celsius = 30
+entrada =  input("Digite a temperatura em Celsius: ")
+temp_celsius = float(entrada)
 
 # Conversão para Fahrenheit
 temp_fahrenheit = (temp_celsius * 9/5) + 32
